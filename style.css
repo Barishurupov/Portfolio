@@ -565,7 +565,7 @@ footer:hover {
     cursor: pointer;
     height: 35px;
     width: 35px;
-    background-image: url('img/lup.png'); /* Путь до иконки */
+    background-image: url('img/Lup.png'); /* Путь до иконки */
     background-size: cover;
 }
 .image-container:hover .zoom-icon {
