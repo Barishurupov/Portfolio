@@ -633,11 +633,6 @@ footer:hover {
     max-height: 70vh; 
 }
 
-
-
-
-
-/* Медиа-запросы для адаптации к разным размерам экранов */
 @media (max-width: 768px) {
     .header {
         background-color: #333;
@@ -677,19 +672,6 @@ footer:hover {
         font-size: 20px;
     }
 
-    /* .primary-nav > li:hover .dropdown,
-    .secondary-nav > li:hover .dropdown {
-        display: block;
-    } */
-
-    /* .dropdown li {
-        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    } */
-
-    /* .dropdown li a {
-        padding-left: 30px;
-    } */
-
     #menu-toggle {
         display: block;
         color: #f51414;
@@ -697,7 +679,6 @@ footer:hover {
     }
 
     #menu-list {
-        /* width: 100%; */
         background-color: #333;
         padding: 0px;
     }
@@ -710,8 +691,6 @@ footer:hover {
         margin: 0;
         flex-direction: column-reverse;
     }
-    
-
 }
 
 @media (max-width: 300px) {
@@ -727,13 +706,7 @@ footer:hover {
     }
     nav {
         flex-direction: column;
-        /* height: auto; */
     }
-
-    /* nav ul {
-        flex-direction:unset;
-        align-items: left;
-    } */
 
     nav ul li {
         margin: 5px 0;
@@ -765,7 +738,7 @@ footer:hover {
 @media (max-width: 768px) {
     #slider_2 {
         max-width: 600px;
-        height: 350px; /* Менее высокая высота для планшетов */
+        height: 350px; 
     }
     .prev_2, .next_2 {
         font-size: 18px;
@@ -776,22 +749,24 @@ footer:hover {
 @media (max-width: 480px) {
     #slider_2 {
         max-width: 300px;
-        height: 250px; /* Ещё меньше высота для смартфонов */
+        height: 250px; 
     }
     .prev_2, .next_2 {
         font-size: 14px;
         padding:  4px;
-        margin-top: 25px;
-        
+        margin-top: 25px;        
     }
+    .modal-content, .zoom-icon {
+        display: none;
+    }
+
+    .modal {
+        display: none !important; 
+    }
+    
 }
 
-
-
-
-
 /* футер */
-/* Медиа-запросы для адаптации */
 @media (max-width: 768px) {
     footer {
         padding-top: 25px 0;
